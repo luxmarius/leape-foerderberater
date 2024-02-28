@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb6f0700ac908b90c3005f03ff112453",
+    "revision": "16eb14fc3e0a7f0337dedd8e9afe5062",
     "url": "/https//luxmarius.github.io/leape-foerderberater/index.html"
   },
   {
