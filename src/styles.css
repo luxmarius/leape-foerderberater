@@ -1,0 +1,348 @@
+/* Apply the Roboto font to all text */
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #3a3f52;
+}
+
+/* Center align the h1 and h2 elements and make h2 smaller */
+h1, h2 {
+  text-align: center;
+  margin: 0; /* Remove default margin */
+  padding: 10px 0; /* Add some padding for better spacing */
+}
+
+h2 {
+  font-size: 0.9em; /* Make h2 smaller than h1 */
+}
+
+h6 {
+	font-family: 'Raleway', sans-serif;
+	color: #3a3f52;
+	font-size: 30px;
+	letter-spacing: .05em;
+	line-height: 1.5;
+	font-weight: 400;
+	margin-bottom: 25px;
+  text-align: center;
+  margin: 0; /* Remove default margin */
+  padding: 10px 0; /* Add some padding for better spacing */
+}
+
+
+.chatbot {
+	font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  background: #b6d7f9;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  width: 500px;
+  overflow: hidden;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  max-height: 58px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #002f50;
+}
+
+.messages {
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.message-container {
+  width: 100%;
+}
+
+.bot-message {
+  float: left;
+  padding: 15px 20px;
+  margin: 5px;
+  border-radius: 20px 20px 20px 1px;
+  background: #49e3de;
+  color: white;
+  min-width: 40px;
+}
+
+.user-message {
+  float: right;
+  padding: 15px 10px;
+  margin: 10px;
+  border-radius: 20px 20px 1px 20px;
+  background: #cccccc;
+  color: black;
+}
+
+.input {
+  position: relative;
+}
+
+.input > form > input[type="text"] {
+  font-family: monospace;
+  font-size: 16px;
+  border: 0;
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: 1px solid #eee;
+  box-shadow: none;
+  box-sizing: border-box;
+  opacity: 1;
+  outline: none;
+  padding: 16px 52px 16px 10px;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.input > form > input:focus {
+  outline: none;
+}
+
+.input > form > button {
+  background-color: transparent;
+  border: 0;
+  border-bottom-right-radius: 10px;
+  box-shadow: none;
+  cursor: pointer;
+  fill: #4a4a4a;
+  opacity: 1;
+  outline: none;
+  padding: 14px 16px 12px 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.chatbot-container {
+  position: relative;
+  height: 66vh; /* Adjusted from 100vh to 66vh */
+  width: 700px;
+  margin: 0 auto; /* Centers the container */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight box shadow */
+  background-color: #ffffff; /* White background */
+}
+
+/* ==============================================
+   9. Footer
+===============================================*/
+
+footer {
+	background-color: #292c31;
+    padding: 60px 0;
+    color: #62656a;
+}
+
+footer h5 {
+	color: #aeb3bd;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-bottom: 20px;
+}
+
+footer p {
+	font-size: 12px;
+	font-weight: 300;
+	color: #62656a;
+	text-align: justify;
+	padding: 0px;
+}
+
+footer li {
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: .05em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+footer a {
+	color: #62656a;
+}
+
+footer a:hover {
+	color: #0095f7;
+	text-decoration: none;
+}
+
+footer i {
+	font-size: 25px;
+	color: #62656a;
+	margin-right: 10px;
+}
+
+footer i:hover {
+	color: #0095f7;
+}
+
+footer small {
+	color: #62656a;
+	float: right;
+}
+
+.external-links {
+	color: #0095f7;
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content (if needed) */
+    width: 100%; /* Ensures the row takes full width of its parent */
+}
+.row ul {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+.row ul li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust space between items as needed */
+}
+
+/* ==============================================
+  Navbar 
+===============================================*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; /* Or any color you prefer */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* X-offset, Y-offset, blur radius, color */
+    margin-bottom: 20px; /* Adds space between the navbar and the content below it */
+}
+
+.navbar-brand {
+  display: flex; /* Use 'flex' instead of 'inline' */
+  align-items: center; /* Aligns the items vertically in the center */
+  gap: 10px; /* Optional: adds space between the logo and the text */
+}
+
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 30px;
+}
+
+.navbar-logo img {
+  width: 50px; /* You can adjust this based on your image's size */
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black; /* Change this as needed */
+}
+
+.btn-pro {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Add responsiveness or other styles as needed */
+/* ==============================================
+  Main Content
+===============================================*/
+/* Style for the div containing images */
+.small-icon {
+  text-align: center; /* Center align the images */
+  margin: 20px 0; /* Add some margin for better spacing */
+}
+
+/* Style for the images */
+.small-icon img {
+  max-width: 35px; /* Set maximum width for the images */
+  max-height: 35px; /* Set maximum height for the images */
+  margin: 0 5px; /* Add margin to space out the images */
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
