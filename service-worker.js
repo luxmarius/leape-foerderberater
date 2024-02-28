@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/https//luxmarius.github.io/leape-foerderberater/precache-manifest.836dea3b99d65f05985da2e4f4e04043.js"
+  "/https//luxmarius.github.io/leape-foerderberater/precache-manifest.eabd6d1b7aa1b8b07a5790e57328b8a6.js"
 );
 
 self.addEventListener('message', (event) => {
